@@ -67,5 +67,8 @@ function geraSenha() {
     else if (tamanhoSenha > 5 && tamanhoSenha < 12 ) {
           forcaSenha.classList.add('media');
     }else if (tamanhoSenha <= 5){
+
+
     forcaSenha.classList.add('forte');
-}
+    }
+    }
