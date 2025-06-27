@@ -1,5 +1,5 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto');
-let tamanhoSenha = 12;
+let tamanhoSenha = 5;
 numeroSenha.textContent = tamanhoSenha;
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
 const letrasMinusculas = 'abcdefghijklmnopqrstuvxywz';
@@ -67,8 +67,6 @@ function geraSenha() {
     else if (tamanhoSenha > 5 && tamanhoSenha < 12 ) {
           forcaSenha.classList.add('media');
     }else if (tamanhoSenha <= 5){
-
-
-    forcaSenha.classList.add('forte');
+          forcaSenha.classList.add('fraca');
     }
     }
